@@ -8,6 +8,8 @@ object manzana {
 
 	method energiaQueOtorga() = 40
 
+	method teEncontro(cosa){}
+
 }
 
 object alpiste {
@@ -18,5 +20,18 @@ object alpiste {
 
 	method energiaQueOtorga() = 70
 
+	method teEncontro(cosa){}
+
 }
 
+object manzana2 {
+
+	method image() = "manzana.png"
+
+	method position() = game.at(3, 4)
+
+	method energiaQueOtorga() = 40
+
+	method teEncontro(cosa){}
+
+}
